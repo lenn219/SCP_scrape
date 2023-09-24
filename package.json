@@ -1,0 +1,19 @@
+{
+  "name": "scp_scrape",
+  "version": "1.0.0",
+  "description": "a web scraper for SCP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lenn219/SCP_scrape.git"
+  },
+  "author": "lenn219",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lenn219/SCP_scrape/issues"
+  },
+  "homepage": "https://github.com/lenn219/SCP_scrape#readme"
+}
