@@ -3,21 +3,39 @@
 this package goes to the wikidot website and scrapes the main content and should only take the html
 
 ## install
-`npm install scp_scrape || npm i scp_scrape`
+
+### new project
+
+```
+npm init
+```
+
+now
+
+```
+npm install scp_scrape 
+```
+
+### existing project
+
+```
+npm install scp_scrape 
+```
 
 ## run
+
 ```js
 var scrape = require('scp_scrape');
 scrape(1,3)
 ```
 
-## result 
+## result
+
 ```
 Data/{number}.html
 ```
 
 so the folder will look something like this:
-
 
 Data/
 
@@ -27,10 +45,10 @@ Data/
 
     SCP-004.html
 
+**if there is a failure is will be printed but it will keep going so watch out!!!!!**
 
+**I would fork the code if you are going to use it because you probably want more precise logging.**
 
-if there is a failure is will be printed but it will keep going so watch out!!!!!
+**Note: i havent yet looked at SCP-001 i just know that there are more than one on the same number so i just if you put in anything lower than 2 it will start at 2.**
 
-Note: i havent yet looked at SCP-001 i just know that there are more than one on the same number so i just if you put in anything lower than 2 it will start at 2.
-
-Note_2: the requester is not so fast so it wil take days to go through every single scp and you will get some errors so this is not perfect.
+**Note_2: the requester is not so fast so it wil take days to go through every single scp and you will get some errors so this is not perfect.**
