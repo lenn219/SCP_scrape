@@ -31,14 +31,14 @@ module.exports = function (i,q){
     
     function toThreeDigits(num) {
         return String(num).padStart(3, '0');
-    }
+    };
     
     //Runs on start
     
-    readline.question("Which SCP should we start at? ", name => {
-        let i = parseInt(name);
-    readline.question("Which SCP should we end at? ", name => {
-        let q = parseInt(name);
+    // readline.question("Which SCP should we start at? ", name => {
+    //     let i = parseInt(name);
+    // readline.question("Which SCP should we end at? ", name => {
+    //     let q = parseInt(name);
         console.log("\n"+i,q+"\n")
         if (1 < i & q >= i) { 
             readline.close();
@@ -55,7 +55,7 @@ module.exports = function (i,q){
             readline.close();
             }
         }
-    })});
+    
     
     
     async function SCP(i,q)  {
@@ -136,7 +136,4 @@ module.exports = function (i,q){
         };
     };
     
-    
-
-
 };

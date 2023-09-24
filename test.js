@@ -1,1 +1,3 @@
-var scp = require('scp-scrape');
+var scrape = require('./index.js');
+
+scrape(1, 3);
